@@ -38,7 +38,7 @@ public class JedisAdapter{
         private static int TIMEOUT = 10000;
 
         //连接的主机
-        private static final  String  HOST = "47.106.225.58";
+        private static final  String  HOST = "localhost";
 
         //连接的端口
         private static final int   PORT =  6379;
