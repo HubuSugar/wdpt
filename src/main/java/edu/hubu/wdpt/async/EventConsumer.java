@@ -20,6 +20,7 @@ import java.util.Map;
 
 /**
  * created by Sugar  2018/11/20 10:52
+ * 实现bean生命周期中的InitializingBean接口，项目启动之后就是执行afterPropertiesSet()方法将事件注册到容器中
  */
 @Service
 public class EventConsumer implements ApplicationContextAware, InitializingBean {
